@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOMOVIES - PUNTUA TU PELI FAV</title>
+    <link rel="stylesheet" href="css/1css.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/logo/Logotipo.png" alt="Logo" class="logo">
+        <div class="header-content">
+            <div class="search-box">
+
+                <input type="text" id="filter-input" placeholder="Buscar películas..." aria-label="Buscar películas">
+            </div>
+        </div>
+
+        <div class="categories">
+            <button class="categories-button">Categorías</button>
+            <div class="categories-dropdown">
+                <a href="categorias/Terror/terror.html">TERROR</a>
+                <a href="categorias/Romance/romance.html">ROMANCE</a>
+                <a href="categorias/Suspenso/Suspenso.html">SUSPENSO</a>
+                <a href="categorias/Drama/Drama.html">DRAMA</a>
+                <a href="categorias/Accion/Accion.html">ACCION</a>
+                <a href="categorias/Animadas/Animada.html">ANIMADAS</a>
+                <a href="categorias/Ciencia Ficcion/ficcion.html">CIENCIA FICCION</a>
+                <a href="categorias/Aventura/Aventura.html">AVENTURA</a>
+                <a href="categorias/Comedia/Comedia.html">COMEDIA</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-container">
+        <button class="arrow left-arrow">&#9664;</button>
+        <div class="center-container">
+            <div class="image-container">
+                <img id="slideshow" src="" alt="Imagen de la galería">
+            </div>
+        </div>
+        <button class="arrow right-arrow">&#9654;</button>
+    </div>
+
+    <div class="indicator-container">
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+        <div class="indicator"></div>
+    </div>
+
+    <section class="top-rated-movies">
+        <h2>Películas Más Puntuadas</h2>
+        <div class="movie-grid">
+            <div class="movie-card">
+                <div class="movie-video">
+                    <video src="videos/trailer1.mp4" muted controls></video>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">El Conjuro 1</h3>
+                    <p class="movie-rating">Puntuación: 9.8</p>
+                    <p class="movie-description">Un clásico del terror basado en los archivos de los Warren, con sucesos
+                        paranormales que desafían la lógica.</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-video">
+                    <video src="videos/trailer2.mp4" muted controls></video>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">El Conjuro 2</h3>
+                    <p class="movie-rating">Puntuación: 9.6</p>
+                    <p class="movie-description">Los Warren viajan a Inglaterra para enfrentar una de las casas más
+                        aterradoras: el famoso caso Enfield.</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-video">
+                    <video src="videos/trailer3.mp4" muted controls></video>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">El Conjuro 3: El Diablo me Obligó a Hacerlo</h3>
+                    <p class="movie-rating">Puntuación: 9.5</p>
+                    <p class="movie-description">Una historia de posesión y asesinato en la que los Warren enfrentan su
+                        caso más oscuro en un tribunal.</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-video">
+                    <video src="videos/trailer4.mp4" muted controls></video>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">El Conjuro 4: El Último Ritual</h3>
+                    <p class="movie-rating">Puntuación: 9.4</p>
+                    <p class="movie-description">El cierre de la saga con un ritual final que lleva a los Warren al
+                        límite de lo sobrenatural.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <center>
+            <p>Copyright (c) 2024 - Universidad Surcolombiana</p>
+        </center>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
